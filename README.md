@@ -2,6 +2,10 @@
 
 A Python utility designed for extracting structured text from both digital and scanned PDF documents. Built with a focus on modern development ergonomics and reproducible environments.
 
+## Why use this?
+
+* **Privacy**: While cloud services (like Google Docs or online converters) offer PDF-to-text features, they often require you to upload your files to their servers. This tool runs locally. Your data never leaves your Mac. This is essential for sensitive documents, school records, or private research.
+
 ## Architecture & Tooling
 
 * **Environment Management**: uv (Rust-based Python bundler) for sub-millisecond dependency resolution.

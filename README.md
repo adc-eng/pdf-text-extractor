@@ -19,6 +19,7 @@ This tool relies on system-level libraries for image processing and OCR that can
 ```bash
 brew install tesseract
 brew install poppler
+```
 
 ## Installation and setup
 
@@ -27,12 +28,14 @@ brew install poppler
 ```bash
 git clone https://github.com/adc-eng/pdf-text-extractor.git
 cd pdf-text-extractor 
+```
 
 * **Sync the environment**
 
 ```bash
 cd pdf-text-extractor
 uv sync
+```
 
 This command will automatically download the required Python version, create a .venv, and install all dependencies (pypdf, pdf2image, pytesseract) in editable mode.
 
@@ -44,6 +47,7 @@ To extract text from a file and save it to a document, run the following command
 
 ```bash
 uv run pdf-extract <path_to_your_pdf> > output.txt
+```
 
 ## How it works
 

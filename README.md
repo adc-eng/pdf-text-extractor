@@ -4,7 +4,7 @@ A Python utility designed for extracting structured text from both digital and s
 
 ## Why use this?
 
-* **Privacy**: While cloud services (like Google Docs or online converters) offer PDF-to-text features, they often require you to upload your files to their servers. This tool runs locally. Your data never leaves your Mac. This is essential for sensitive documents, school records, or private research.
+* **Privacy**: While cloud services (like Google Docs or online converters) offer PDF-to-text features, they require you to upload your files to their servers. This tool runs locally. Your data never leaves your Mac. This is essential for sensitive documents, school records, or private research.
 
 ## Architecture & Tooling
 

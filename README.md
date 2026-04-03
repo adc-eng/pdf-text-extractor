@@ -18,11 +18,23 @@ A Python utility designed for extracting structured text from both digital and s
 
 ## Prerequisites
 
+Ensure you have uv (https://docs.astral.sh/uv/getting-started/installation/) installed. You can check it from a terminal with:
+
+```bash
+uv --version
+```
+
+If not, you can use the following command :
+
+```bash
+~% curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
 Ensure you have the following system dependencies installed (via Homebrew on macOS):
 
 ```bash
 brew install tesseract
-brew install uv
+brew install poppler
 ```
 
 

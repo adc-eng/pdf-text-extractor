@@ -33,8 +33,7 @@ If not, you can use the following command :
 Ensure you have the following system dependencies installed (via Homebrew on macOS):
 
 ```bash
-brew install tesseract
-brew install poppler
+brew install tesseract poppler
 ```
 
 
@@ -50,7 +49,7 @@ cd pdf-text-extractor
 ```
 
 
-Run extraction:
+Run extraction: The utility is designed to be executed via `uv` to ensure environment isolation.
 
 ```bash
 uv run pdf-extract path/to/document.pdf > output.txt

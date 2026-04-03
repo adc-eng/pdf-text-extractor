@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling>=1.13.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pdf-text-extractor"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "pypdf>=3.17.0",
+    "pdf2image>=1.16.0",
+    "pytesseract>=0.3.10"
+]
+
+[project.scripts]
+pdf-extract = "pdf_text_extractor.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pdf_text_extractor"]
